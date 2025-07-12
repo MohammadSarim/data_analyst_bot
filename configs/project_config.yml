@@ -1,5 +1,5 @@
 langsmith:
-  tracing: "true"
+  tracing: "false"
   project_name: "RAG & SQL Agents"
 
 memory:
