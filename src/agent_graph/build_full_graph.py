@@ -1,6 +1,6 @@
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import StateGraph, START
-from langchain_groq import ChatGroq  # ✅ Use ChatGroq instead of ChatOpenAI
+from langchain_groq import ChatGroq
 from agent_graph.tool_chinook_sqlagent import query_chinook_sqldb
 from agent_graph.tool_travel_sqlagent import query_travel_sqldb
 from agent_graph.tool_lookup_policy_rag import lookup_swiss_airline_policy
