@@ -11,3 +11,4 @@ sentence-transformers
 langchain-groq
 langchain-chroma
 langgraph
+langchain-tavily

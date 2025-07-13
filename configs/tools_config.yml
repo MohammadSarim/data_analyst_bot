@@ -26,12 +26,12 @@ stories_rag:
 
 travel_sqlagent_configs:
   travel_sqldb_dir: "data/airline.sqlite"
-  llm: deepseek-r1-distill-llama-70b
+  llm: "deepseek-r1-distill-llama-70b"
   llm_temperature: 0.0
 
 chinook_sqlagent_configs:
   chinook_sqldb_dir: "data/Chinook.db"
-  llm: deepseek-r1-distill-llama-70b
+  llm: "deepseek-r1-distill-llama-70b"
   llm_temperature: 0.0
 
 langsmith:
