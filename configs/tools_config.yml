@@ -25,7 +25,7 @@ stories_rag:
   k: 2
 
 travel_sqlagent_configs:
-  travel_sqldb_dir: "data/airline.sqlite"
+  travel_sqldb_dir: "data/airline.csv"
   llm: "deepseek-r1-distill-llama-70b"
   llm_temperature: 0.0
 

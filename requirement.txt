@@ -12,3 +12,5 @@ langchain-groq
 langchain-chroma
 langgraph
 langchain-tavily
+langchain_experimental
+tabulate

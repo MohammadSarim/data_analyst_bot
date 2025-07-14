@@ -63,7 +63,7 @@ def generate_loyalty_data(n):
 df = generate_loyalty_data(n_rows)
 
 # Save to SQLite
-db_path = "data/airline.sqlite"
+db_path = "airline.csv"
 conn = sqlite3.connect(db_path)
 df.to_sql("airline", conn, if_exists="replace", index=False)
 conn.close()
